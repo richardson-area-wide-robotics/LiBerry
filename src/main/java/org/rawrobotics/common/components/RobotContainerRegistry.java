@@ -1,8 +1,8 @@
-package frc.robot.common.components;
+package org.rawrobotics.common.components;
 
-import frc.robot.RobotContainer;
-import frc.robot.common.annotations.Robot;
-import frc.robot.common.interfaces.IRobotContainer;
+import org.rawrobotics.RobotContainer;
+import org.rawrobotics.common.annotations.Robot;
+import org.rawrobotics.common.interfaces.IRobotContainer;
 import lombok.experimental.UtilityClass;
 
 import java.io.InputStream;

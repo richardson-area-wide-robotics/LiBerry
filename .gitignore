@@ -26,3 +26,4 @@ replay_pid*
 /.gradle
 /.vscode
 /.wpilib
+src/main/java/org/rawrobotics/BuildConstants.java

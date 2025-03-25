@@ -1,4 +1,4 @@
-package frc.robot.common.swerve;
+package org.rawrobotics.common.swerve;
 
 // Copyright (c) LASA Robotics and other contributors
 // Open Source Software; you can modify and/or share it under the terms of
@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import frc.robot.Constants;
+import org.rawrobotics.Constants;
 import org.lasarobotics.drive.TractionControlController;
 import org.lasarobotics.drive.swerve.DriveWheel;
 import org.lasarobotics.drive.swerve.SwerveModule;
@@ -56,9 +56,9 @@ import edu.wpi.first.wpilibj.RobotBase;
 import edu.wpi.first.wpilibj.RobotController;
 import edu.wpi.first.wpilibj.simulation.BatterySim;
 import edu.wpi.first.wpilibj.simulation.RoboRioSim;
-import frc.robot.Constants.DriveConstants;
-import frc.robot.Constants.SwerveConstants;
-import frc.robot.common.components.RobotUtils;
+import org.rawrobotics.Constants.DriveConstants;
+import org.rawrobotics.Constants.SwerveConstants;
+import org.rawrobotics.common.components.RobotUtils;
 import lombok.AllArgsConstructor;
 
 /** REV MAXSwerve module */

@@ -1,4 +1,4 @@
-package frc.robot.common.components;
+package org.rawrobotics.common.components;
 
 import com.pathplanner.lib.config.RobotConfig;
 import com.revrobotics.spark.SparkBase.ControlType;

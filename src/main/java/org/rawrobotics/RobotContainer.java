@@ -2,7 +2,7 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
-package frc.robot;
+package org.rawrobotics;
 
 import com.pathplanner.lib.auto.AutoBuilder;
 import com.pathplanner.lib.auto.NamedCommands;
@@ -16,15 +16,15 @@ import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.Commands;
-import frc.robot.Constants.HIDConstants;
-import frc.robot.common.annotations.Robot;
-import frc.robot.common.components.RobotUtils;
-import frc.robot.common.interfaces.IRobotContainer;
-import frc.robot.common.subsystems.CBSSubsystem;
-import frc.robot.common.subsystems.DeepClimbSubsystem;
-import frc.robot.common.subsystems.ElevatorSubsystem;
-import frc.robot.common.subsystems.ScoringSubsystem;
-import frc.robot.common.subsystems.drive.SwerveDriveSubsystem;
+import org.rawrobotics.Constants.HIDConstants;
+import org.rawrobotics.common.annotations.Robot;
+import org.rawrobotics.common.components.RobotUtils;
+import org.rawrobotics.common.interfaces.IRobotContainer;
+import org.rawrobotics.common.subsystems.CBSSubsystem;
+import org.rawrobotics.common.subsystems.DeepClimbSubsystem;
+import org.rawrobotics.common.subsystems.ElevatorSubsystem;
+import org.rawrobotics.common.subsystems.ScoringSubsystem;
+import org.rawrobotics.common.subsystems.drive.SwerveDriveSubsystem;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

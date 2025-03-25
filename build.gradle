@@ -22,13 +22,13 @@ java {
     targetCompatibility = JavaVersion.VERSION_17
 }
 
-def ROBOT_MAIN_CLASS = "frc.robot.Main"
+def ROBOT_MAIN_CLASS = "org.rawrobotics.Main"
 
 // PurpleLib
 project.compileJava.dependsOn(createVersionFile)
 gversion {
   srcDir       = "src/main/java/"
-  classPackage = "frc.robot"
+  classPackage = "org.rawrobotics"
   className    = "BuildConstants"
   dateFormat   = "yyyy-MM-dd HH:mm:ss z"
   timeZone     = "America/Chicago" // Use preferred time zone

@@ -1,4 +1,4 @@
-package frc.robot.common;
+package org.rawrobotics.common;
 
 import edu.wpi.first.math.Pair;
 import edu.wpi.first.math.geometry.Translation2d;

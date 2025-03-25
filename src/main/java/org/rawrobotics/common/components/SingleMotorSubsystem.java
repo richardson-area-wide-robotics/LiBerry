@@ -1,4 +1,4 @@
-package frc.robot.common.components;
+package org.rawrobotics.common.components;
 
 import com.revrobotics.spark.SparkFlex;
 import com.revrobotics.spark.SparkLowLevel.MotorType;
