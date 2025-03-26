@@ -1,6 +1,5 @@
 package org.rawrobotics.common.components;
 
-import org.rawrobotics.RobotContainer;
 import org.rawrobotics.common.annotations.Robot;
 import org.rawrobotics.common.interfaces.IRobotContainer;
 import lombok.experimental.UtilityClass;
@@ -35,7 +34,7 @@ public class RobotContainerRegistry {
 
         // If not found, use the default container
         if (containerClass == null) {
-            return RobotContainer.createContainer(); 
+            throw new RuntimeException("No Robot Containers!");        
         }
 
         try { //Create the container

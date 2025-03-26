@@ -97,7 +97,6 @@ super();
     if (autonomousCommand != null) {
       autonomousCommand.cancel();
     }
-    RobotContainer.DRIVE_SUBSYSTEM.DRIVETRAIN_HARDWARE.navx.reset();
   }
 
   @Override
