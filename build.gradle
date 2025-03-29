@@ -22,7 +22,7 @@ project.compileJava.dependsOn(createVersionFile)
 gversion {
   srcDir       = "src/main/java/"
   classPackage = "org.rawrobotics"
-  className    = "BuildConstants"
+  className    = "LiBerryConstants"
   dateFormat   = "yyyy-MM-dd HH:mm:ss z"
   timeZone     = "America/Chicago" // Use preferred time zone
   indent       = "  "

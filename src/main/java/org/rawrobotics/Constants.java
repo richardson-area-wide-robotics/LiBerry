@@ -63,7 +63,7 @@ public final class Constants {
 
     public static final double EPSILON = 5e-3;
     /**In Amps, the max current a Drive Motor can use*/
-    public static final int DRIVE_MOTOR_CURRENT_LIMIT = 60;
+    public static final int DRIVE_MOTOR_CURRENT_LIMIT = 80;
     /**In Amps, the max current a Rotate Motor can use*/
     public static final int ROTATE_MOTOR_CURRENT_LIMIT = 20;
 

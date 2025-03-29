@@ -42,9 +42,9 @@ super();
         this,
         AprilTagFieldLayout.loadField(AprilTagFields.kDefaultField),
         Path.of("/media/sda1"),
-        BuildConstants.MAVEN_NAME,
-        BuildConstants.GIT_SHA,
-        BuildConstants.BUILD_DATE,
+        LiBerryConstants.MAVEN_NAME,
+        LiBerryConstants.GIT_SHA,
+        LiBerryConstants.BUILD_DATE,
         false
       );
     }

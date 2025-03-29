@@ -27,3 +27,6 @@ replay_pid*
 /.vscode
 /.wpilib
 src/main/java/org/rawrobotics/BuildConstants.java
+/.idea
+/bin
+src/main/java/org/rawrobotics/LiBerryConstants.java

@@ -12,7 +12,6 @@ import org.lasarobotics.drive.swerve.AdvancedSwerveKinematics.ControlCentricity;
 import org.lasarobotics.hardware.IMU;
 import org.lasarobotics.hardware.LoggableHardware;
 import org.lasarobotics.hardware.PurpleManager;
-import org.lasarobotics.hardware.kauailabs.NavX2InputsAutoLogged;
 import org.littletonrobotics.junction.AutoLog;
 import org.littletonrobotics.junction.Logger;
 
